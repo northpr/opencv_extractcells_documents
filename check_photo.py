@@ -37,6 +37,7 @@ def check_every_photo(folder_dir, config):
     mistake_percent = len(incorrect)*100/png_file
     print(f"Total Mistakes: {len(incorrect)}/{png_file}")
     print(f"Mistake percentage: {round(mistake_percent,2)}%")
+    print(f"Incorrect photos: {incorrect}\nTotal Mistakes: {len(incorrect)}/{png_file}\nMistake percentage: {round(mistake_percent,2)}%", file=open("incorrect.txt", 'w'))
     
 if __name__ == '__main__':
     config = TableAnalysis.config

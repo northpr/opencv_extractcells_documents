@@ -1,0 +1,3 @@
+Incorrect photos: ['32.png']
+Total Mistakes: 1/55
+Mistake percentage: 1.82%
